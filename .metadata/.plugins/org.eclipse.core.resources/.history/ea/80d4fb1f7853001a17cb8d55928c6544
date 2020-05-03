@@ -1,0 +1,24 @@
+import static org.junit.jupiter.api.Assertions.*;
+
+import org.junit.jupiter.api.Test;
+
+class BankAccountTest {
+
+	@Test
+	void testGetBalance() {
+		BankAccount acc = new BankAccount();
+		assertEquals(0,acc.getBalance());
+	}
+
+	@Test
+	void testDeposit() {
+		BankAccount acc = new BankAccount();
+		assertEquals(1, acc.deposit(1));
+	}
+
+	@Test
+	void testWithdraw() {
+		fail("Not yet implemented");
+	}
+
+}

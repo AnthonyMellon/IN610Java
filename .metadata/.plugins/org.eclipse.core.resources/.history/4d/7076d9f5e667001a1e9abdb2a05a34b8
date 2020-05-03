@@ -1,0 +1,40 @@
+package parrayandlistutilities;
+
+import static org.junit.jupiter.api.Assertions.*;
+
+import org.junit.jupiter.api.Test;
+
+class ArrayAndListUtilitiesTest {
+
+	int[] numbers = new int[] {5, 60, 70, 5, 52, 11, 12, 8, 19, 20};
+	
+	//@Test
+	void testSearchFor20() {
+		
+		String output = ArrayAndListUtilities.findIt(numbers, 20);
+		
+		assertEquals("Found 20 at position 9. ", output);
+		
+	}
+	
+	@Test
+	void testBubbleV1() {
+		int[] myNumbers = new int[] {5, 7, 1, 3, 8};
+		int[] myExpectedNumbers = new int[] {1, 3, 5, 7, 8};
+		ArrayAndListUtilities.bubbleV1(myNumbers);
+		
+		assertArrayEquals(myExpectedNumbers, myNumbers);
+		
+	}
+	
+	@Test
+	void testBubbleV2() {
+		int[] myNumbers = new int[] {5, 7, 1, 3, 8};
+		int[] myExpectedNumbers = new int[] {1, 3, 5, 7, 8};
+		ArrayAndListUtilities.bubbleV2(myNumbers);
+		
+		assertArrayEquals(myExpectedNumbers, myNumbers);
+		
+	}
+
+}

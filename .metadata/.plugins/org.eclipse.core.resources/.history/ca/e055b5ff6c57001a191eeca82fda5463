@@ -1,0 +1,19 @@
+package pbox;
+
+import static org.junit.jupiter.api.Assertions.*;
+
+import org.junit.jupiter.api.Test;
+
+class BoxTest {
+
+	private Box box;
+	
+	@Test
+	void oneValueConstructor() {
+		box = new Box(5);
+		assertEquals(5, box.getHeight());
+		assertEquals(5, box.getLength());
+		assertEquals(5, box.getWidth());
+	}
+
+}

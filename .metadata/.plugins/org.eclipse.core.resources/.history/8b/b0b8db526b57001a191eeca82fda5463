@@ -1,0 +1,14 @@
+package pbox;
+
+public class BoxTest {
+
+	private Box box1;
+	private Box box2;
+	private Box box3;
+	
+	@Test
+	void getMethods()
+	{
+		
+	}
+}

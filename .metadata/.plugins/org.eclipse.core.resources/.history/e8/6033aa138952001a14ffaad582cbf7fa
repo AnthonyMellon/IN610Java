@@ -1,0 +1,18 @@
+package pmyfirst;
+
+public class MyFirstApp {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		System.out.println("my first line");
+		System.out.println(Math.PI);
+		
+		System.out.println(Math.E);
+		System.out.println(Math.abs(-1.0078));
+		System.out.println(Math.asin(0.067));
+		System.out.println(Math.atan(1.067));
+		System.out.println(Math.ceil(2.891));
+	}
+
+}

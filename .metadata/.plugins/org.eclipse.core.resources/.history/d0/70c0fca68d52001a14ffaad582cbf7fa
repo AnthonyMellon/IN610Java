@@ -1,0 +1,21 @@
+package pnameinstars;
+
+public class NameInStars {
+
+	private String name;
+	
+	public NameInStars(String name)
+	{
+		
+	}
+	
+	public void setName(string name)
+	{
+		
+	}
+	
+	public String getName()
+	{
+		
+	}
+}

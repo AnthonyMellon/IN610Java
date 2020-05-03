@@ -1,0 +1,75 @@
+package pbox;
+
+public class Box {
+
+	private double height;
+	private double width;
+	private double length;
+	
+	public Box(double height, double width, double length)
+	{
+		setHeight(height);
+		setWidth(width);
+		setLength(length);
+	}
+	
+	public Box(double squareBase, double height)
+	{
+		setHeight(height);
+		setWidth(squareBase);
+		setLength(squareBase);
+	}
+	
+	public Box(double size)
+	{
+		setHeight(size);
+		setWidth(size);
+		setLength(size);
+	}
+	
+	public double getHeight()
+	{
+		return height;
+	}
+	
+	public double getWidth()
+	{
+		return width;
+	}
+	
+	public double getLength()
+	{
+		return length;
+	}
+	
+	public void setHeight(double height)
+	{
+		this.height = height;
+	}
+	
+	public void setWidth(double width)
+	{
+		this.width = width;
+	}
+	
+	public void setLength(double length)
+	{
+		this.length = length
+	}
+	
+	public double calcVolume()
+	{
+		
+	}
+	
+	public double calcSurfaceArea()
+	{
+		
+	}
+	
+	public String toString()
+	{
+		
+	}
+	
+}

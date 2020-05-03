@@ -1,0 +1,6 @@
+
+private int balance;
+
+public class BankAccount {
+
+}

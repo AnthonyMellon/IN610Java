@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="ChooseWorkspaceDialogSettings">
+		<item key="DIALOG_X_ORIGIN" value="652"/>
+		<item key="DIALOG_Y_ORIGIN" value="341"/>
+	</section>
+	<section name="WORKBENCH_SETTINGS">
+		<list key="ENABLED_TRANSFERS">
+		</list>
+	</section>
+	<section name="ExternalProjectImportWizard">
+		<item key="WizardProjectsImportPage.STORE_NESTED_PROJECTS" value="false"/>
+		<item key="WizardProjectsImportPage.STORE_COPY_PROJECT_ID" value="false"/>
+		<item key="WizardProjectsImportPage.STORE_ARCHIVE_SELECTED" value="false"/>
+		<item key="WizardProjectsImportPage.STORE_CLOSE_CREATED_PROJECTS_ID" value="false"/>
+		<item key="WizardProjectsImportPage.STORE_HIDE_CONFLICTING_PROJECTS_ID" value="false"/>
+		<list key="WizardProjectsImportPage.STORE_DIRECTORIES">
+			<item value="D:\The Gibbon\Documents\Behind the Scenes\OP OneDrive\OneDrive - Otago Polytechnic\IN610 Java"/>
+			<item value="C:\Users\Anthony\OneDrive - Otago Polytechnic\IN610 Java"/>
+			<item value="C:\Users\mellam1\OneDrive - Otago Polytechnic\IN610 Java\PRobot"/>
+			<item value="C:\Users\mellam1\OneDrive - Otago Polytechnic\IN610 Java\PNameInStars"/>
+			<item value="C:\Users\mellam1\OneDrive - Otago Polytechnic\IN610 Java\PMyFirst"/>
+			<item value="C:\Users\mellam1\OneDrive - Otago Polytechnic\IN610 Java\PBamkAccount"/>
+			<item value="C:\Users\mellam1\OneDrive - Otago Polytechnic\IN610 Java\PSalary"/>
+		</list>
+		<list key="WizardProjectsImportPage.STORE_ARCHIVES">
+			<item value=""/>
+		</list>
+	</section>
+</section>

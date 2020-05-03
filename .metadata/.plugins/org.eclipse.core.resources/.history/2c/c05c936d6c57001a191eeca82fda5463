@@ -1,0 +1,14 @@
+package pbox;
+
+import static org.junit.jupiter.api.Assertions.*;
+
+import org.junit.jupiter.api.Test;
+
+class BoxTest {
+
+	@Test
+	void test() {
+		fail("Not yet implemented");
+	}
+
+}

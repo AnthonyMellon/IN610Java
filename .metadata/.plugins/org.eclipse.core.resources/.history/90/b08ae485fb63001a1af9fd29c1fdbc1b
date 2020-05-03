@@ -1,0 +1,74 @@
+package parrayandlistutilities;
+
+import java.util.ArrayList;
+
+public class ArrayAndListUtilities {
+
+	public static int findMax(int[] numbers)
+	{
+		int max = numbers[0];
+		for(int number:numbers)
+		{
+			if (number > max)
+			{
+				max = number;
+			}
+		}
+		return max;
+	}
+	
+	public static int findMax(ArrayList<Integer>numbers)
+	{
+		int max = numbers.get(0);
+		for(int number:numbers)
+		{
+			if (number > max)
+			{
+				max = number;
+			}
+		}
+		return max;
+	}
+	
+	public static int findMin(int[] numbers)
+	{
+		int min = numbers[0];
+		for(int number:numbers)
+		{
+			if (number < min)
+			{
+				min = number;
+			}
+		}
+		return min;
+	}
+	
+	public static int findMin(ArrayList<Integer> numbers)
+	{
+		int min = numbers.get(0);
+		for(int number:numbers)
+		{
+			if (number < min)
+			{
+				min = number;
+			}
+		}
+		return min;
+	}
+	
+	public static String findIt(int[] numbers, int wanted)
+	{
+		StringBuilder data = new StringBuilder();
+		
+		for(int number:numbers)
+		{
+			
+		}
+	}
+	
+	public static String findIt(ArrayList<Integer> numbers, int wanted)
+	{
+		
+	}
+	
+}

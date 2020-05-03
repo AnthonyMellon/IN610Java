@@ -1,0 +1,21 @@
+package pfacebook;
+
+import java.util.ArrayList;
+
+public class FaceBook {
+
+	private ArrayList<Friend> friends;;
+	
+	public FaceBook()
+	{
+		friends = new ArrayList<Friend>();
+	}
+	
+	public void addFriend(Friend newFriend)
+	{
+		friends.add(newFriend);
+	}
+	
+	
+	
+}

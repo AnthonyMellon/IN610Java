@@ -1,0 +1,15 @@
+package psalary;
+
+import static org.junit.jupiter.api.Assertions.*;
+
+import org.junit.jupiter.api.Test;
+
+class SalaryUnitTest {
+
+	@Test
+	void gross100000()
+	{
+		
+	}
+
+}

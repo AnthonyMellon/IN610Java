@@ -1,0 +1,83 @@
+package psalary;
+
+import static org.junit.jupiter.api.Assertions.*;
+
+import org.junit.jupiter.api.Test;
+
+class SalaryUnitTest {
+
+	Salary sal;
+	
+	@Test
+	void gross100000()
+	{
+		sal = new Salary(100000);
+		
+		assertEquals(23920, sal.getTax());
+	}
+	
+	@Test
+	void gross50000()
+	{
+		sal = new Salary(50000);
+		
+		assertEquals(8020, sal.getTax());
+	}
+	
+	@Test
+	void gross20000()
+	{
+		sal = new Salary(20000);
+		
+		assertEquals(2520, sal.getTax());
+	}
+	
+	@Test
+	void gross5000()
+	{
+		sal = new Salary(5000);
+		
+		assertEquals(525, sal.getTax());
+	}
+	
+	@Test
+	void gross48000()
+	{
+		sal = new Salary(48000);
+		
+		assertEquals(7420, sal.getTax());
+	}
+	
+	@Test
+	void gross70000()
+	{
+		sal = new Salary(70000);
+		
+		assertEquals(2520, sal.getTax());
+	}
+	
+	@Test
+	void gross0()
+	{
+		
+	}
+	
+	@Test
+	void grossNeg100()
+	{
+		
+	}
+	
+	@Test
+	void setGross()
+	{
+		
+	}
+	
+	@Test
+	void getGross()
+	{
+		
+	}
+
+}

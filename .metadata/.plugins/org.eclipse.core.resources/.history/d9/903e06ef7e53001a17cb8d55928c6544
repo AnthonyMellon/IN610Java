@@ -1,0 +1,55 @@
+package psalary;
+
+public class Salary {
+	
+	private double gross;
+	
+	public Salary(double gross)
+	{
+		
+	}
+	
+	public double getGross()
+	{
+		return gross;
+	}
+	
+	public void setGross(double gross)
+	{
+		this.gross = gross;
+	}
+	
+	public double getTax()
+	{
+		int tax = 0;
+		
+		if(gross < 70000)
+		{
+			
+		}
+		
+		else if(gross < 48000)
+		{
+			
+		}
+		
+		else if(gross < 16000)
+		{
+			
+		}
+		
+		else if(gross < 0)
+		{
+			
+		}
+		else
+		{
+			
+		}
+	}
+	
+	public double getNet()
+	{
+		return gross - getTax();
+	}
+}

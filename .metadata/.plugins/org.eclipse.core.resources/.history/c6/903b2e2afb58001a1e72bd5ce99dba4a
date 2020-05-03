@@ -1,0 +1,37 @@
+package panthonysdateextravaganza;
+
+import java.time.LocalDate;
+import java.time.LocalDateTime;
+
+import javax.swing.JOptionPane;
+
+public class AnthonysDateExtravaganzaApp {
+	
+	public static void main(String[] args)
+	{
+		LocalDate currentDate = LocalDate.now();
+		LocalDateTime currentDateTime = LocalDateTime.now();
+		
+		System.out.println(currentDate);
+		System.out.println(currentDate.getDayOfWeek());
+		System.out.println(currentDate.getMonth());
+		
+		System.out.println(currentDate.getMonthValue());
+		System.out.println(currentDate.getDayOfMonth());
+		System.out.println(currentDate.getDayOfYear());
+		System.out.println(currentDate.lengthOfMonth());
+		System.out.println(currentDate.lengthOfYear());
+		System.out.println(currentDateTime.getHour());
+		System.out.println(currentDateTime.getMinute());
+		System.out.println(currentDateTime.getSecond());
+		
+		System.out.println(currentDate.getDayOfWeek());
+		
+		System.out.println("******************************************************************");
+		
+		String birthDate = JOptionPane.showInputDialog("Enter your birthdate please\nIn format dd/mm/yy");
+		String[] birthDateSplit = birthDate.split("/", 3);
+		System.out.println(birthDateSplit[2]);
+	}
+	
+}

@@ -1,0 +1,33 @@
+import static org.junit.jupiter.api.Assertions.*;
+
+import org.junit.jupiter.api.Test;
+
+class BankAccountTest {
+
+	@Test
+	void testGetBalance() {
+		
+		BankAccount acc = new BankAccount();
+		assertEquals(0,acc.getBalance());
+	}
+
+	@Test
+	void testDeposit() {
+		
+		BankAccount acc = new BankAccount();
+		
+		int amountToDeposit = 50;
+		
+		acc.deposit(amountToDeposit);
+		assertEquals(amountToDeposit, acc.getBalance());
+	}
+
+	@Test
+	void testWithdraw() {
+
+		BankAccount acc = new BankAccount();
+		
+		int amountToWithdraw = 50;
+	}
+
+}

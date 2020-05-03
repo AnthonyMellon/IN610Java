@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename method &apos;parrayandlistutilities.ArrayAndListUtilitiesTest.populateList()&apos; to &apos;resetList&apos;&#x0D;&#x0A;- Original project: &apos;pArrayAndListUtilities&apos;&#x0D;&#x0A;- Original element: &apos;parrayandlistutilities.ArrayAndListUtilitiesTest.populateList()&apos;&#x0D;&#x0A;- Renamed element: &apos;parrayandlistutilities.ArrayAndListUtilitiesTest.resetList()&apos;&#x0D;&#x0A;- Update references to refactored element" delegate="false" deprecate="false" description="Rename method &apos;populateList&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.method" input="/src&lt;parrayandlistutilities{ArrayAndListUtilitiesTest.java[ArrayAndListUtilitiesTest~populateList" name="resetList" references="true" stamp="1584568141502" version="1.0"/>
+</session>

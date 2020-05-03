@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;probot.PRobotApp&apos; to &apos;RobotApp&apos;&#x0D;&#x0A;- Original project: &apos;PRobot&apos;&#x0D;&#x0A;- Original element: &apos;probot.PRobotApp&apos;&#x0D;&#x0A;- Renamed element: &apos;probot.RobotApp&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;PRobotApp&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;probot{PRobotApp.java[PRobotApp" matchStrategy="1" name="RobotApp" qualified="false" references="true" similarDeclarations="false" stamp="1582056149844" textual="false" version="1.0"/>
+</session>
