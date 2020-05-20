@@ -1,4 +1,4 @@
-package parrayandlistutilities;
+package pfriends;
 
 import java.util.ArrayList;
 
@@ -228,10 +228,10 @@ public class ArrayAndListUtilities {
 		
 		boolean found = false;
 		
-		do
-		{
-			middle = (min+max)/2;
-			
+		middle = (min+max)/2;
+		
+		while(found == false)
+		{			
 			if(target == numbers[middle])
 			{
 				found = true;
@@ -243,9 +243,8 @@ public class ArrayAndListUtilities {
 			else if(target < numbers[middle])
 			{
 				max = middle-1;
-			}
-			
-		} while(found == false);
+			}			
+		}
 		
 		return middle;
 		

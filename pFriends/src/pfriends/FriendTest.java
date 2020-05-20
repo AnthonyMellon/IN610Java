@@ -142,5 +142,7 @@ class FriendTest {
 		assertEquals(expectedDetails, thirdFriend.toString());
 	}
 	
+	
+	
 
 }
