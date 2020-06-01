@@ -6,48 +6,43 @@ import java.util.ArrayList;
 import java.util.Scanner;
 
 public class Worker {
-
-	private int nColumnsTotal;
-	private int nColumnsWanted;
 	
-	private ArrayList<String> dataList;
-	private Scanner sc;	
+	private static Scanner sc;	
 	
 	public Worker()
 	{
-		nColumnsTotal = 11;
-		nColumnsWanted = 5;		
+	}
+	
+	public static void loadSongs(ArrayList<Song> songs)
+	{
+		String decade;
+		int position;
+		String artist;
+		String songTitle;
+		double indicativeRevenue;
+		String line;
 		
-		dataList = new ArrayList<String>();
 		try
 		{
-			sc = new Scanner(new File("TopMusic.csv")).useDelimiter(",");	
+			sc = new Scanner(new File("TopMusic.csv"));
+			
+			while (sc.hasNextLine() == true)
+			{	
+				line = sc.nextLine();
+				String[] fields = line.split(",");
+				decade = fields[0];			
+				position = Integer.parseInt(fields[1]);
+				artist = fields[2];
+				songTitle = fields[3];
+				indicativeRevenue = Double.parseDouble(fields[4]);	
+				
+				songs.add(new Song(decade, position, artist, songTitle, indicativeRevenue));
+			}
+			sc.close();
 		}
 		catch (IOException e)
 		{
 			System.out.println("File issues");
-		}
-			
-		
-		while (sc.hasNextLine() == true)
-		{
-			dataList.add(sc.next());
-		}
-		sc.close();
-		
-		int currentColumn = 0;
-		for(String data:dataList)
-		{
-			if(currentColumn < nColumnsWanted)
-			{
-				System.out.print(data);
-			}			
-			currentColumn ++;
-			if(currentColumn >= nColumnsTotal)
-			{
-				System.out.println();
-				currentColumn = 0;
-			}
 		}
 	}
 	
