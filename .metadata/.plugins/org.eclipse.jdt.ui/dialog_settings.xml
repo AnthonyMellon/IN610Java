@@ -79,4 +79,111 @@
 		<item key="DIALOG_HEIGHT" value="1020"/>
 		<item key="DIALOG_FONT_NAME" value="1|Segoe UI|9.0|0|WINDOWS|1|-18|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI"/>
 	</section>
+	<section name="BuildPathsPropertyPage">
+		<item key="pageIndex" value="2"/>
+	</section>
+	<section name="JavadocWizardDialog">
+		<item key="DIALOG_X_ORIGIN" value="660"/>
+		<item key="DIALOG_Y_ORIGIN" value="150"/>
+		<item key="DIALOG_WIDTH" value="616"/>
+		<item key="DIALOG_HEIGHT" value="567"/>
+		<item key="DIALOG_FONT_NAME" value="1|Segoe UI|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI"/>
+	</section>
+	<section name="javadoc">
+		<item key="javadoc_command_history" value="D:\The Gibbon\Documents\Behind the Scenes\Java\bin\javadoc.exe"/>
+		<item key="fromStandard" value="true"/>
+		<item key="docletname" value=""/>
+		<item key="docletpath" value=""/>
+		<item key="access" value="public"/>
+		<item key="use" value="true"/>
+		<item key="author" value="true"/>
+		<item key="version" value="true"/>
+		<item key="nodeprecated" value="false"/>
+		<item key="nodeprecatedlist" value="false"/>
+		<item key="splitindex" value="true"/>
+		<item key="noindex" value="false"/>
+		<item key="notree" value="false"/>
+		<item key="nonavbar" value="false"/>
+		<item key="openinbrowser" value="false"/>
+		<item key="source" value="13"/>
+		<item key="antpath" value="D:\The Gibbon\Documents\Polytech\IN610Java\pAssignmentOneAnthonyMellon\javadoc.xml"/>
+		<item key="destdir" value="D:\The Gibbon\Documents\Polytech\IN610Java\pAssignmentOneAnthonyMellon\doc"/>
+		<section name="projects">
+			<section name="PRobot">
+				<item key="href" value=""/>
+				<item key="destdir" value="D:\The Gibbon\Documents\Polytech\IN610Java\PRobot\doc"/>
+				<item key="antpath" value="D:\The Gibbon\Documents\Polytech\IN610Java\PRobot\javadoc.xml"/>
+			</section>
+			<section name="pAssignmentOneAnthonyMellon">
+				<item key="href" value=""/>
+				<item key="destdir" value="D:\The Gibbon\Documents\Polytech\IN610Java\pAssignmentOneAnthonyMellon\doc"/>
+				<item key="antpath" value="D:\The Gibbon\Documents\Polytech\IN610Java\pAssignmentOneAnthonyMellon\javadoc.xml"/>
+			</section>
+			<section name="PAnthonysDateExtravaganza">
+				<item key="href" value=""/>
+				<item key="destdir" value="D:\The Gibbon\Documents\Polytech\IN610Java\PAnthonysDateExtravaganza\doc"/>
+				<item key="antpath" value="D:\The Gibbon\Documents\Polytech\IN610Java\PAnthonysDateExtravaganza\javadoc.xml"/>
+			</section>
+			<section name="pBubbleSort">
+				<item key="href" value=""/>
+				<item key="destdir" value="D:\The Gibbon\Documents\Polytech\IN610Java\pBubbleSort\doc"/>
+				<item key="antpath" value="D:\The Gibbon\Documents\Polytech\IN610Java\pBubbleSort\javadoc.xml"/>
+			</section>
+			<section name="PSalary">
+				<item key="href" value=""/>
+				<item key="destdir" value="D:\The Gibbon\Documents\Polytech\IN610Java\PSalary\doc"/>
+				<item key="antpath" value="D:\The Gibbon\Documents\Polytech\IN610Java\PSalary\javadoc.xml"/>
+			</section>
+			<section name="PFaceBook">
+				<item key="href" value=""/>
+				<item key="destdir" value="D:\The Gibbon\Documents\Polytech\IN610Java\PFaceBook\doc"/>
+				<item key="antpath" value="D:\The Gibbon\Documents\Polytech\IN610Java\PFaceBook\javadoc.xml"/>
+			</section>
+			<section name="PMyFirst">
+				<item key="href" value=""/>
+				<item key="destdir" value="D:\The Gibbon\Documents\Polytech\IN610Java\PMyFirst\doc"/>
+				<item key="antpath" value="D:\The Gibbon\Documents\Polytech\IN610Java\PMyFirst\javadoc.xml"/>
+			</section>
+			<section name="pArrayAndListUtilities">
+				<item key="href" value=""/>
+				<item key="destdir" value="D:\The Gibbon\Documents\Polytech\IN610Java\pArrayAndListUtilities\doc"/>
+				<item key="antpath" value="D:\The Gibbon\Documents\Polytech\IN610Java\pArrayAndListUtilities\javadoc.xml"/>
+			</section>
+			<section name="PBox">
+				<item key="href" value=""/>
+				<item key="destdir" value="D:\The Gibbon\Documents\Polytech\IN610Java\PBox\doc"/>
+				<item key="antpath" value="D:\The Gibbon\Documents\Polytech\IN610Java\PBox\javadoc.xml"/>
+			</section>
+			<section name="ArrayListProject">
+				<item key="href" value=""/>
+				<item key="destdir" value="D:\The Gibbon\Documents\Polytech\IN610Java\ArrayListProject\doc"/>
+				<item key="antpath" value="D:\The Gibbon\Documents\Polytech\IN610Java\ArrayListProject\javadoc.xml"/>
+			</section>
+			<section name="pFriends">
+				<item key="href" value=""/>
+				<item key="destdir" value="D:\The Gibbon\Documents\Polytech\IN610Java\pFriends\doc"/>
+				<item key="antpath" value="D:\The Gibbon\Documents\Polytech\IN610Java\pFriends\javadoc.xml"/>
+			</section>
+			<section name="PBamkAccount">
+				<item key="href" value=""/>
+				<item key="destdir" value="D:\The Gibbon\Documents\Polytech\IN610Java\PBamkAccount\doc"/>
+				<item key="antpath" value="D:\The Gibbon\Documents\Polytech\IN610Java\PBamkAccount\javadoc.xml"/>
+			</section>
+			<section name="PNameInStars">
+				<item key="href" value=""/>
+				<item key="destdir" value="D:\The Gibbon\Documents\Polytech\IN610Java\PNameInStars\doc"/>
+				<item key="antpath" value="D:\The Gibbon\Documents\Polytech\IN610Java\PNameInStars\javadoc.xml"/>
+			</section>
+			<section name="pTemperature">
+				<item key="href" value=""/>
+				<item key="destdir" value="D:\The Gibbon\Documents\Polytech\IN610Java\pTemperature\doc"/>
+				<item key="antpath" value="D:\The Gibbon\Documents\Polytech\IN610Java\pTemperature\javadoc.xml"/>
+			</section>
+			<section name="pArraysAndArrayLists">
+				<item key="href" value=""/>
+				<item key="destdir" value="D:\The Gibbon\Documents\Polytech\IN610Java\pArraysAndArrayLists\doc"/>
+				<item key="antpath" value="D:\The Gibbon\Documents\Polytech\IN610Java\pArraysAndArrayLists\javadoc.xml"/>
+			</section>
+		</section>
+	</section>
 </section>

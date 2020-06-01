@@ -15,6 +15,7 @@
 		<item key="WizardProjectsImportPage.STORE_CLOSE_CREATED_PROJECTS_ID" value="false"/>
 		<item key="WizardProjectsImportPage.STORE_HIDE_CONFLICTING_PROJECTS_ID" value="false"/>
 		<list key="WizardProjectsImportPage.STORE_DIRECTORIES">
+			<item value="D:\The Gibbon\Documents\Polytech\IN610Java"/>
 			<item value="C:\Users\Anthony\Documents\GIT Repositories\IN610Java"/>
 			<item value="D:\The Gibbon\Documents\Behind the Scenes\OP OneDrive\OneDrive - Otago Polytechnic\IN610 Java"/>
 			<item value="C:\Users\Anthony\OneDrive - Otago Polytechnic\IN610 Java"/>

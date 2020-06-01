@@ -1,6 +1,7 @@
 package passignmentoneanthonymellon;
 
-public class Song {
+public class Song implements Comparable<Song>
+{
 	
 	private String decade;
 	private int position;
@@ -61,6 +62,21 @@ public class Song {
 	public String toString() {
 		return "Song [decade: " + decade + ", position: " + position + ", artist: " + artist + ", songTitle: " + songTitle
 				+ ", indicativeRevenue: " + indicativeRevenue + "]";
+	}
+
+	@Override
+	public int compareTo(Song S1) 
+	{
+		//setting up the natural sort order		
+		if(artist.equals(S1.getArtist()))
+		{
+			return songTitle.compareTo(S1.getSongTitle());
+		}
+		else
+		{
+			return artist.compareTo(S1.getArtist());
+		}
+		
 	}
 	
 	
